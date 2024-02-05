@@ -416,7 +416,7 @@ li {
 @media (max-width: 700px) {
   .landingPageDescription {
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
 }
 .landingPage h1 {
@@ -735,7 +735,7 @@ li {
     height: 1200px;
     justify-content: left;
     width: 100%;
-    padding: auto !important;
+    padding: 0px !important;
   }
 }
 .FAQS-description a {
@@ -754,8 +754,8 @@ li {
 }
 @media (max-width: 700px) {
   .someFAQS {
-    width: 80%;
-    padding: auto !important;
+    width: 100%;
+    padding: 5px !important;
   }
 }
 
@@ -815,7 +815,7 @@ li {
 @media (max-width: 700px) {
   .section5Description {
     margin-bottom: 100px;
-    padding: auto !important;
+    padding: 0 !important;
   }
 }
 @media (max-width: 700px) {
@@ -855,7 +855,7 @@ footer {
 @media (max-width: 700px) {
   .footer {
     height: 1000px;
-    padding-left: 20px !important;
+    /* padding-left: 0px !important; */
   }
 }
 
@@ -871,7 +871,8 @@ footer {
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
-    padding: auto;
+    padding: 0px;
+    margin-left: 2px;
     gap: 15px;
   }
 }
